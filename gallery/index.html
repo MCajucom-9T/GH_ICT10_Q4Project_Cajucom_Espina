@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Q4 PROJECT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- external css -->
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- python link-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Alkatra:wght@400..700&family=Audiowide&family=Bokor&family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cookie&family=DynaPuff:wght@400..700&family=Eagle+Lake&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Lexend+Giga:wght@100..900&family=Madimi+One&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <!-- google fonts link -->
+
+</head>
+<body>
+    <div class="navb">
+        <ul class="nav nav-pills mx-auto nav-wrapper">
+            <li class="logo">
+                <a href="index.html" class="logo-text">10 TOPAZ</a>
+            </li>
+
+            <li class="nav-item  rounded-pill">
+                <a class="nav-link"  href="../index.html">Classmates</a>
+            </li>
+
+            <li class="nav-item rounded-pill">
+                <a class="nav-link" href="../attendance/index.html">Attendance Tracker</a>
+            </li>
+
+            <li class="nav-item activepill rounded-pill">
+                <a class="nav-link" id="activepill" href="../gallery/index.html">Gallery</a>
+            </li>
+
+        </ul>
+    </div>
+    <!-- navbar -->
+
+    <div class="container" id="header">
+            <h1>10T Highlights</h1>
+            <hr>
+    </div>
+
+    <div class="container-fluid" id="whole">
+		<div class="container col-sm-12">
+
+			<div class="row d-flex justify-content-center">
+
+				<div class="col-sm-3 mb-4">
+					<div class="card" id="food">
+					<img class="card-img-top img-fluid" src="champorado.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Champorado</h4>
+					<p class="card-text">Decadent, velvety chocolate rice bliss.</p>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card   " id="food">
+					<img class="card-img-top img-fluid" src="sopas.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Sopas</h4>
+					<p class="card-text">The perfect noodle dish for a cold day.</p>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card   " id="food">
+					<img class="card-img-top img-fluid" src="tapa.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Tapsilog</h4>
+					<p class="card-text">Savory garlic rice, tender beef, and a perfect sunny-side-up egg.</p>
+		 			 </div>
+					</div>
+				</div>
+
+				<div class="col-sm-3 mb-4">
+					<div class="card   " id="food">
+					<img class="card-img-top img-fluid" src="karekare.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Kare-Kare</h4>
+					<p class="card-text">Luscious peanut stew bursting with bold, savory flavors.</p>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card   " id="food">
+					<img class="card-img-top img-fluid" src="pinakbet.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Pinakbet</h4>
+					<p class="card-text">Vibrant vegetable medley simmered in savory shrimp paste.</p>
+		 			</div>
+					</div>
+
+				<br>	
+
+					<div class="card   " id="food">
+					<img class="card-img-top img-fluid" src="adobo.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Adobo</h4>
+					<p class="card-text">Bold, tangy-savory stew of soy, vinegar, and garlic.</p>
+		 			 </div>
+					</div>
+			</div>
+
+			<div class="col-sm-3 mb-4">
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="sisig.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Sisig</h4>
+				<p class="card-text">Sizzling, tangy-crispy pork with bold and zesty flavors.</p>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="lechonkawali.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Lechon Kawali</h4>
+				<p class="card-text">Crispy, golden pork belly with juicy, tender perfection.</p>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="caldereta.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Caldereta</h4>
+				<p class="card-text">Hearty, spiced tomato stew with tender meat and rich flavors.</p>
+		 		</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 mb-4">
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="halohalo.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Halo-Halo</h4>
+				<p class="card-text">A refreshing mix of crushed ice, sweet treats, and tropical flavors.</p>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="maisconyelo.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Mais Con Yelo</h4>
+				<p class="card-text">Sweet corn, creamy milk, and crushed ice in a refreshing dessert!</p>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card   " id="food">
+				<img class="card-img-top img-fluid" src="lecheflan.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Leche Flan</h4>
+				<p class="card-text">Silky caramel custard that melts in your mouth.</p>
+		 		</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+    <py-script src="main.py"></py-script>
+    <br>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #F9DEC9, #99B2DD);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 80px !important;
+    padding-bottom: 80px;
+    min-height: 100vh; 
+}
+
+.navb {
+    background-color: rgba(58, 64, 90, 0.1);
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 25px;
+    top: 0;
+    margin-bottom: 50px !important;
+}
+
+.navb .nav-item{
+    background-color: #3A405A;
+    color: #99B2DD;
+}
+
+.navb .nav-link {
+    color: #99B2DD;
+}
+
+.navb .activepill{
+    background-color: #99B2DD !important;
+    color: #3A405A !important;
+}
+
+.navb .activepill .nav-link{
+    color: #3A405A !important;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* logo left, links right */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A405A;
+    text-decoration: none;
+}
+
+.logo-text:hover {
+    color: #6fc3ff;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.btn-dark {
+    width: 20% !important;
+    color: #3A405A !important;
+    font-weight: 900;
+    background-color: #E9AFA3 !important;
+}
+
+
+.container {
+    background-color: #685044;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#header {
+    text-align: center;
+    color: #2E414B;
+    background-color:#99b4dc;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #ccc !important;
+}
+
+button {
+    background-color: #99b4dc !important;
+    color: #2E414B !important;
+    width: 100%;
+}
