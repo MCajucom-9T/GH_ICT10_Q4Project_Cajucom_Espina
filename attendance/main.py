@@ -1,17 +1,17 @@
 from pyscript import display, document #type: ignore (quick fix feature)
-import numpy as np
+import numpy as np #importing numpy
 import logging
-logging.getLogger('matplotlib').setLevel(logging.ERROR)
-import matplotlib.pyplot as plt
+logging.getLogger('matplotlib').setLevel(logging.ERROR) 
+import matplotlib.pyplot as plt #importing matplotlib
 
 def graph(e):
-    document.getElementById('output').innerHTML=''
-    Month = np.array([document.getElementById('input2').value])
-    Absentees = np.array([int(document.getElementById('input1').value)])
+    document.getElementById('output').innerHTML='' #Clears past output
+    Month = np.array([document.getElementById('input2').value]) #Gets value of the id
+    Absentees = np.array([int(document.getElementById('input1').value)]) #Gets value of the id
 
     Academic_Attendance_Sheet =plt.plot(Month,Absentees , marker='D')
 
-    plt.show(Academic_Attendance_Sheet )
-    plt.title("Academic Attendance sheet")
-    plt.xlabel("Month")
-    plt.ylabel("Absentees")
+    plt.show(Academic_Attendance_Sheet ) 
+    plt.title("Academic Attendance sheet") #Adds Title
+    plt.xlabel("Month") #Adds label for X-Axis
+    plt.ylabel("Absentees") #Adds label for Y-Axis
