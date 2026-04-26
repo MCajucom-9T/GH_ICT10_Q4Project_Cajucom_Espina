@@ -45,25 +45,27 @@
         </ul>
     </div>
     
-    <h1>Academic Attendance Sheet</h1>
-    <form>
-        <input type="button" class="btn" py-click="graph" value="Check">
-        <input type="number" id="input1" placeholder="Enter Absentees">
-        <select class="form-select" id="input2">
-            <option>Jan</option>
-            <option>Feb</option>
-            <option>Mar</option>
-            <option>Apr</option>
-            <option>May</option>
-            <option>Aug</option>
-            <option>Sept</option>
-            <option>Oct</option>
-            <option>Nov</option>
-            <option>Dec</option>
-        </select>
+    <h1 id="header">Academic Attendance Sheet</h1>
+    <div class="container">
+        <form>
+            <input type="button" class="btn" py-click="graph" value="Check">
+            <input type="number" id="input1" placeholder="Enter Absentees">
+            <select class="form-select" id="input2">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Aug</option>
+                <option>Sept</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+            </select>
+    
+        </form>
+    </div>
 
-    </form>
-    <div id="output"></div>
     <py-script src="main.py"></py-script>
 </body>
 
