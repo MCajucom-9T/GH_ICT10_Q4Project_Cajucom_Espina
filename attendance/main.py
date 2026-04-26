@@ -8,7 +8,7 @@ def graph(e):
     Month = np.array([document.getElementById('input2').value]) #Gets value of the id
     Absentees = np.array([int(document.getElementById('input1').value)]) #Gets value of the id
 
-    Academic_Attendance_Sheet =plt.plot(Month,Absentees , marker='D')
+    Academic_Attendance_Sheet =plt.bar(Month,Absentees)
 
     plt.show(Academic_Attendance_Sheet ) 
     plt.title("Academic Attendance sheet") #Adds Title
