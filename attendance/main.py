@@ -5,7 +5,6 @@ logging.getLogger('matplotlib').setLevel(logging.ERROR)
 import matplotlib.pyplot as plt #importing matplotlib
 
 def graph(e):
-    document.getElementById('output').innerHTML='' #Clears past output
     Month = np.array([document.getElementById('input2').value]) #Gets value of the id
     Absentees = np.array([int(document.getElementById('input1').value)]) #Gets value of the id
 
